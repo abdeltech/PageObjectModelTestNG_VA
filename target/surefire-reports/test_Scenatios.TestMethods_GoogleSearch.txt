@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: test_Scenatios.TestMethods_GoogleSearch
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.507 sec <<< FAILURE!
+VerifyLogin(test_Scenatios.TestMethods_GoogleSearch)  Time elapsed: 6.982 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Login page] but found [Log into Facebook]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at objects.Facebookpage.VerifyLogin(Facebookpage.java:32)
+	at test_Scenatios.TestMethods_GoogleSearch.VerifyLogin(TestMethods_GoogleSearch.java:48)
+
